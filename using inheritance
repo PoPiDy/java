@@ -1,0 +1,10 @@
+class Vehicle{
+    String brand = "Yamaha";
+}
+class Motorcycle extends Vehicle{
+    String modelName = "Y15";
+public static void main(String[] args){
+    Motorcycle myMotorcycle = new Motorcycle();
+    System.out.println(myMotorcycle.brand +" "+myMotorcycle.modelName);
+}
+}
