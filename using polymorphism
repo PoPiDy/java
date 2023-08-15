@@ -1,0 +1,27 @@
+class Fruits {
+    public void fruitType() {
+        System.out.println("Different fruit have a different color");
+    }
+}
+
+class Apple extends Fruits {
+    public void fruitType() {
+        System.out.println("Color of apple is red");
+    }
+}
+class Watermelon extends Fruits {
+    public void fruitType() {
+        System.out.println("Color of watermelon is green");
+    }
+}
+class Main {
+public static void main (String[]args) {
+    Fruits myFruits = new Fruits();
+    Fruits myApple = new Apple();
+    Fruits myWatermelon = new Watermelon();
+    myFruits.fruitType();
+    myApple.fruitType();
+    myWatermelon.fruitType();
+    
+}
+}
